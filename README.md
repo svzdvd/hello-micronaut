@@ -1,6 +1,3 @@
-
-# Getting Started with Micronaut and Graal
-
 ### Install Micronaut with Sdkman
 
 ```

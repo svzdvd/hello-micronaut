@@ -1,13 +1,13 @@
 ### Install Micronaut with Sdkman
 
-```
-$ sdk update
-$ sdk install micronaut
+```bash
+sdk update
+sdk install micronaut
 ```
 
 ### Create a Kotlin Microservice
 
-```
+```bash
 mn create-app hello-world --features graal-native-image-kotlin
 ```
 
@@ -30,7 +30,7 @@ class HelloController {
 
 ### Build a Native Image using Docker
 
-```
-$ ./gradlew assemble
-$ ./docker-build.sh
+```bash
+./gradlew assemble
+./docker-build.sh
 ```
